@@ -37,3 +37,21 @@ const student = {
 };
 student ["age"] = student ["age"] + 10;
 console.log(student.age);
+
+// Practice 1 for Lecture 1
+const product = {
+title: "Ball Pen",
+rating: 4,
+offer: 5,
+price: 270,
+};
+console.log(product);
+
+// Practice 2 for Lecture 1
+const profile = {
+    userName: "Rehan Rafique",
+    isFollow: false,
+    followers: 123,
+    following: 256, 
+};
+console.log(profile)
