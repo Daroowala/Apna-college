@@ -15,8 +15,14 @@ name = "Rafique"
 console.log(name);
 console.log(price)
 
-// const variable cannot be re-declared or update. A block scope variable
+// const variable cannot be re-declared or update. A block scope variable.
+// {} brackets show new blocks
 const city = "Karachi";
 const country = "Pakistan";
+{
+    const city = "Lahore";
+    console.log(city);
+}
 console.log(city);
 console.log(country);
+
