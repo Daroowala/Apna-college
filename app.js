@@ -26,3 +26,14 @@ const country = "Pakistan";
 console.log(city);
 console.log(country);
 
+// Primitive 7 Data Types in JS: Numbers, String, Boolean, Undefined, Null, Bigint, Symbol
+// objects means collection of defrent variables
+
+const student = {
+    fullName: "Rehan Rafique",
+    age: 24,
+    cgpa: 8.5,
+    isPass: true,
+};
+student ["age"] = student ["age"] + 10;
+console.log(student.age);
