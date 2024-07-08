@@ -97,13 +97,30 @@
 
 
 //Comparison Operator
-let a = 5;
-let b = 2;
-let c = 10;
-let d = "20";
-console.log("5 == 2", a == b); //equals to
-console.log("5 != 2", a != b); //Is not equals to
-console.log("10 === 20", c === d); //strictly equals to
-console.log("10 !== 20", c !== d); //strictly not equals to
-console.log("5 > 2", a > b); //greter then
-console.log("5 < 2", a < b); //less then
+// let a = 5;
+// let b = 2;
+// let c = 10;
+// let d = "20";
+// console.log("5 == 2", a == b); //equals to
+// console.log("5 != 2", a != b); //Is not equals to
+// console.log("10 === 20", c === d); //strictly equals to
+// console.log("10 !== 20", c !== d); //strictly not equals to
+// console.log("5 > 2", a > b); //greter then
+// console.log("5 < 2", a < b); //less then
+
+
+//Logical Operater
+//Logical && And
+// let a = 6;
+// let b = 5;
+// console.log("cond1 && cond2 =", a > b && a === 6);
+
+// Logical || OR
+// let a = 6;
+// let b = 5;
+// console.log("cond1 || cond2 =", a < b || a === 6);
+
+// ! is not
+let a = 6;
+let b = 5;
+console.log("!(6>5)", !(6>5))
