@@ -149,19 +149,25 @@
 // console.log(color);
 
 //else If Statment
-let mode = "pink";
-let color;
+// let mode = "pink";
+// let color;
 
-if (mode === "dark") {
-    color = "black";
-}
-else if (mode === "blue") {
-    color = "blue";
-}
-else if (mode === "pink") {
-    color = "pink";
-}
-else {
-    color = "grey";
-}
-console.log(color);
+// if (mode === "dark") {
+//     color = "black";
+// }
+// else if (mode === "blue") {
+//     color = "blue";
+// }
+// else if (mode === "pink") {
+//     color = "pink";
+// }
+// else {
+//     color = "grey";
+// }
+// console.log(color);
+
+
+//Ternary Operators (? , :)
+let age = 15;
+let result = age >= 18 ? "You are eligible to vote" : "You are !!!not eligible... to vote";
+console.log(result);
