@@ -71,6 +71,7 @@
 // console.log("a % b =", a % b); //called Modulus given remanig value
 // console.log("a ** b =", a ** b); //called Exponentiation 
 
+
 //Unary Operater
 // let a = 5;
 // let b = 2;
@@ -79,17 +80,30 @@
 // console.log("a =", a);
 // console.log("b =", b);
 
+// let a = 5;
+// let b = 2;
+// // a++;//post increment
+// // ++a;//pre increment 
+// // b--;//post dicrement
+// // --b;//pre dicrement
+
+// console.log("a++", a++);
+// console.log("a", a);
+// console.log("++a", ++a);
+
+// console.log("b--", b--);
+// console.log("b", b);
+// console.log("--b", --b);
+
+
+//Comparison Operator
 let a = 5;
 let b = 2;
-// a++;//post increment
-// ++a;//pre increment 
-// b--;//post dicrement
-// --b;//pre dicrement
-
-console.log("a++", a++);
-console.log("a", a);
-console.log("++a", ++a);
-
-console.log("b--", b--);
-console.log("b", b);
-console.log("--b", --b);
+let c = 10;
+let d = "20";
+console.log("5 == 2", a == b); //equals to
+console.log("5 != 2", a != b); //Is not equals to
+console.log("10 === 20", c === d); //strictly equals to
+console.log("10 !== 20", c !== d); //strictly not equals to
+console.log("5 > 2", a > b); //greter then
+console.log("5 < 2", a < b); //less then
