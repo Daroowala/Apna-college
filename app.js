@@ -61,12 +61,35 @@
 
 // Lecture No 2
 //Artimetic opraters
+// let a = 5;
+// let b = 2;
+// console.log("a =", a, "&", "b =", b);
+// console.log("a + b =", a + b);
+// console.log("a - b =", a - b);
+// console.log("a * b =", a * b);
+// console.log("a / b =", a / b);
+// console.log("a % b =", a % b); //called Modulus given remanig value
+// console.log("a ** b =", a ** b); //called Exponentiation 
+
+//Unary Operater
+// let a = 5;
+// let b = 2;
+// a++;//increment
+// b--;//dicrement
+// console.log("a =", a);
+// console.log("b =", b);
+
 let a = 5;
 let b = 2;
-console.log("a =", a, "&", "b =", b);
-console.log("a + b =", a + b);
-console.log("a - b =", a - b);
-console.log("a * b =", a * b);
-console.log("a / b =", a / b);
-console.log("a % b =", a % b); //called Modulus given remanig value
-console.log("a ** b =", a ** b); //called Exponentiation 
+// a++;//post increment
+// ++a;//pre increment 
+// b--;//post dicrement
+// --b;//pre dicrement
+
+console.log("a++", a++);
+console.log("a", a);
+console.log("++a", ++a);
+
+console.log("b--", b--);
+console.log("b", b);
+console.log("--b", --b);
