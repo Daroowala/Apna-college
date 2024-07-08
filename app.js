@@ -121,6 +121,47 @@
 // console.log("cond1 || cond2 =", a < b || a === 6);
 
 // ! is not
-let a = 6;
-let b = 5;
-console.log("!(6>5)", !(6>5))
+// let a = 6;
+// let b = 5;
+// console.log("!(6>5)", !(6>5))
+
+
+//Conditional Statment
+//There are three types of Statments
+//If Statment
+// let age = 16;
+// if (age >= 18){
+//     console.log("You are eligible to vote");
+// }
+// if (age < 18){
+//     console.log("You are !!!not eligible... to vote");
+// }
+
+//else Statment
+// let mode = "dark";
+// let color;
+// if (mode === "dark") {
+//     color = "black";
+// }
+// else {
+//     color = "white";
+// }
+// console.log(color);
+
+//else If Statment
+let mode = "pink";
+let color;
+
+if (mode === "dark") {
+    color = "black";
+}
+else if (mode === "blue") {
+    color = "blue";
+}
+else if (mode === "pink") {
+    color = "pink";
+}
+else {
+    color = "grey";
+}
+console.log(color);
