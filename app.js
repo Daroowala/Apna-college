@@ -168,6 +168,15 @@
 
 
 //Ternary Operators (? , :)
-let age = 15;
-let result = age >= 18 ? "You are eligible to vote" : "You are !!!not eligible... to vote";
-console.log(result);
+// let age = 15;
+// let result = age >= 18 ? "You are eligible to vote" : "You are !!!not eligible... to vote";
+// console.log(result);
+
+
+// Practice 1 for Lecture 2
+let num = prompt("Enter a number");
+if (num % 5 === 0){
+console.log(num, "is a multiple of 5")
+} else {
+    console.log(num, "is !!NOT... a Multiple of 5")
+}
