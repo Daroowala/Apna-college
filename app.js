@@ -182,29 +182,30 @@
 // }
 
 // Practice 2 for Lecture 2
-let score = prompt("Enter your score");
-if (score >= 101){
-    console.log("This is NOT a correct score")
-}
-else if (score >= 90){
-    console.log("Your Grade is A+");  
-}
-else if (score >= 80){
-    console.log("Your Grade is A");
-}
-else if (score >= 70){
-    console.log("Your Grade is B");
-}
-else if (score >= 60){
-    console.log("Your Grade is C");
-}
-else if (score >= 50){
-    console.log("Your Grade is D");
-}
-else if (score >= 0){
-    console.log("You are !!FALI...");
-}
-else{
-    console.log("This is NOT a correct score")
-}
+// let score = prompt("Enter your score");
+// if (score >= 101){
+//     console.log("This is NOT a correct score")
+// }
+// else if (score >= 90){
+//     console.log("Your Grade is A+");  
+// }
+// else if (score >= 80){
+//     console.log("Your Grade is A");
+// }
+// else if (score >= 70){
+//     console.log("Your Grade is B");
+// }
+// else if (score >= 60){
+//     console.log("Your Grade is C");
+// }
+// else if (score >= 50){
+//     console.log("Your Grade is D");
+// }
+// else if (score >= 0){
+//     console.log("You are !!FALI...");
+// }
+// else{
+//     console.log("This is NOT a correct score")
+// }
+
 
