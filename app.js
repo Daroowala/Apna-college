@@ -181,6 +181,7 @@
 //     console.log(num, "is !!NOT... a Multiple of 5")
 // }
 
+
 // Practice 2 for Lecture 2
 // let score = prompt("Enter your score");
 // if (score >= 101){
@@ -209,3 +210,17 @@
 // }
 
 
+
+// Lecture No 3
+// Loops 
+// for loop
+// for (let i = 1; i <= 5; i++){
+//     console.log("Apna Karachi");
+// }
+
+let sum = 0;
+for (let i = 1; i <= 5; i++){
+    sum = sum + i;
+    
+}
+console.log("sum =", sum); 
