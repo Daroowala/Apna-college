@@ -253,9 +253,16 @@
 // }
 
 // Practice 2 for Lecture 3
-let gameNum = 25;
-let userNum = prompt("Guess the game number");
-while (userNum != gameNum){
-    userNum = prompt("You enter wrong number !!Guess again!!")
-}
-document.write("Cogratulation you ...Win...");
+// let gameNum = 25;
+// let userNum = prompt("Guess the game number");
+// while (userNum != gameNum){
+//     userNum = prompt("You enter wrong number !!Guess again!!")
+// }
+// document.write("Cogratulation you ...Win...");
+
+
+
+// Strings: String length: String indices
+// let str = "Rehan"
+// console.log(str.length)
+// console.log(str[2])
