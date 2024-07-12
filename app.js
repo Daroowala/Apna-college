@@ -266,3 +266,19 @@
 // let str = "Rehan"
 // console.log(str.length)
 // console.log(str[2])
+
+
+
+// Template Literals
+// let obj = {
+//     item: 'Pen',
+//     price: 10,
+// };
+// let outPut = `the cost of ${obj.item} is ${obj.price} Rupees`;
+// console.log(outPut);
+
+//Escape caracter
+// Line change\n
+// console.log("Rehan\nRafique");
+// // Tab \t
+// console.log("Rehan\tRafique");
