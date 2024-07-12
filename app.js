@@ -218,9 +218,44 @@
 //     console.log("Apna Karachi");
 // }
 
-let sum = 0;
-for (let i = 1; i <= 5; i++){
-    sum = sum + i;
+// let sum = 0;
+// for (let i = 1; i <= 5; i++){
+//     sum = sum + i;
     
+// }
+// console.log("sum =", sum); 
+
+//While Loop:
+// let i = 1;
+// while (i <= 5) {
+// console.log("Apna Collage")
+// i++;
+// }
+
+//Do while loop
+// let i = 1;
+// do {
+//     console.log("i =", i);
+//     i++;
+// }while (i <= 5);
+
+// Practice 1 for Lecture 3
+// for (let num = 0; num <= 100; num++) {
+//     if (num % 2 === 0) {
+//     console.log("num =", num)
+// } //even number print
+// }
+
+// for (let num = 0; num <= 100; num++) {
+//     if (num % 2 !== 0) {
+//     console.log("num =", num)
+// } // odd number print
+// }
+
+// Practice 2 for Lecture 3
+let gameNum = 25;
+let userNum = prompt("Guess the game number");
+while (userNum != gameNum){
+    userNum = prompt("You enter wrong number !!Guess again!!")
 }
-console.log("sum =", sum); 
+document.write("Cogratulation you ...Win...");
