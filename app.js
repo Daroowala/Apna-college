@@ -319,6 +319,12 @@
 // console.log(str.charAt(5));
 
 // Practice 3 for Lecture 3
-let fullName = prompt ("enter your full name without spaces");
-let userName = "@" + fullName + fullName.length;  
-console.log(userName);
+// let fullName = prompt ("enter your full name without spaces");
+// let userName = "@" + fullName + fullName.length;  
+// console.log(userName);
+
+
+
+// Array
+let marks = [96, 86, 72, 52, 38];
+console.log (marks);
