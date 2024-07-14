@@ -282,3 +282,38 @@
 // console.log("Rehan\nRafique");
 // // Tab \t
 // console.log("Rehan\tRafique");
+
+
+
+// Strings Methods
+// toUpperCase
+// let str = "Apna Karachi"
+// console.log(str.toUpperCase());
+
+// // toLowerCase
+// let str1 = "Apna Karachi"
+// let newStr = "Apna Karachi"
+// console.log(newStr);
+// console.log(str1.toLowerCase());
+
+// // trim
+// let str2 = "    Apna Karachi    Local   ";
+// console.log(str2.trim());
+
+// slice
+// let str4 = "Apna Karachi";
+// console.log(str4.slice(2, 7));
+
+// concat
+// let str1 = "Apna";
+// let str2 = "Karachi";
+// let res = str1 + str2;
+// console.log(res);
+
+// replace
+// let str1 = "Apna Karachi"
+// console.log(str1.replace('a', 't'));
+
+// charAt
+let str = "Apna Karachi";
+console.log(str.charAt(5));
