@@ -315,5 +315,10 @@
 // console.log(str1.replace('a', 't'));
 
 // charAt
-let str = "Apna Karachi";
-console.log(str.charAt(5));
+// let str = "Apna Karachi";
+// console.log(str.charAt(5));
+
+// Practice 3 for Lecture 3
+let fullName = prompt ("enter your full name without spaces");
+let userName = "@" + fullName + fullName.length;  
+console.log(userName);
