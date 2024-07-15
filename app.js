@@ -337,3 +337,9 @@
 // let str = ["Hello", "World", "karachi", "pakistan"];
 // str [3] = 'y';
 // console.log(str);
+
+// Looping over an Array
+// let heros = ['Hulk','Superman','Spiderman','Ironman','Thore','Chamatman'];
+// for (let i = 0; i < heros.length; i++){
+//     console.log(heros[i]);
+// }
