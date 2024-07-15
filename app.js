@@ -341,5 +341,8 @@
 // Looping over an Array
 // let heros = ['Hulk','Superman','Spiderman','Ironman','Thore','Chamatman'];
 // for (let i = 0; i < heros.length; i++){
-//     console.log(heros[i]);
+// console.log(heros[i]);
 // }
+
+// Practice 1 for Lecture 4
+let marks = [85, 97, 44, 37, 76, 60]
