@@ -326,5 +326,14 @@
 
 
 // Array
-let marks = [96, 86, 72, 52, 38];
-console.log (marks);
+// let marks = [96, 86, 72, 52, 38];
+// console.log (marks);
+
+// // Array indices
+// let index = [96, 86, 72, 52, 38];
+// index [2] = 66;
+// console.log (index[2]);
+
+// let str = ["Hello", "World", "karachi", "pakistan"];
+// str [3] = 'y';
+// console.log(str);
