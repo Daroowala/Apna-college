@@ -366,9 +366,52 @@
 // }
 
 // forLoop
-let items = [250, 645, 300, 900, 50];
-for (let i = 0; i < items.length; i++){
-    let offer = items[i] / 10;
-    items[i] -= offer;
-}
-console.log(items);
+// let items = [250, 645, 300, 900, 50];
+// for (let i = 0; i < items.length; i++){
+//     let offer = items[i] / 10;
+//     items[i] -= offer;
+// }
+// console.log(items);
+
+// Arrays methord
+// Push(): add to end
+// let foods = ['chips', 'tomato', 'potato', 'apple'];
+// foods.push('banana', 'graps');
+// console.log(foods);
+
+// // Pop(): delete from end and return
+// let deletedItems = foods.pop();
+
+// console.log(foods);
+// console.log('deleted', deletedItems);
+
+// // toString(): convert Array to string
+// console.log(foods.toString());
+
+// concat(): join multiple Array & returns result
+// let mervalHeros = ['Hulk', 'Superman', 'Ironman'];
+// let dcHeros = ['Batman', 'Thore'];
+// let heros = mervalHeros.concat(dcHeros);
+// console.log(heros);
+
+// unshift
+// let mervalHeros = ['Hulk', 'Superman', 'Ironman', 'Batman'];
+// mervalHeros.unshift('antman');
+// console.log(mervalHeros);
+
+// shift
+// let mervalHeros = ['Hulk', 'Superman', 'Ironman', 'Batman'];
+// mervalHeros.shift();
+// console.log(mervalHeros);
+
+// slice(): return a piece of Array
+// let mervalHeros = ['Hulk', 'Superman', 'Ironman', 'Batman', 'antman'];
+// console.log(mervalHeros);
+// console.log(mervalHeros.slice(1,3));
+
+// // splice(): change orignal Array (add, remove, replace)
+// let arr = [1, 2, 3, 4, 5, 6, 7,];
+// arr.splice(2,3,101);
+// console.log(arr);
+// arr.splice(2, 0, 102);
+// console.log(arr);
