@@ -428,3 +428,28 @@
 
 
 // Functions
+// function myFunction () {
+//     console.log('Hello World');
+//     console.log('Learning')
+// }
+// myFunction();
+
+// function myFunction1 (msg) {
+// console.log(msg);
+// }
+// myFunction1('I Luv JS');
+
+// function sum (x,y) {
+//     console.log(x + y);
+// }
+
+function sum (x, y){
+    cal = x + y;
+    let localScope = ('Hello'); // jub hum koi variable ko localscope mai likhta haan too usa hum localscope mai hi return la sakta haan
+    console.log('befor return');
+    return cal;
+    
+}
+let val = sum(3,7);
+console.log(val);
+console.log(localScope)
