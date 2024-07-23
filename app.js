@@ -424,3 +424,7 @@
 // console.log(companies);
 // companies.push('Amazon');
 // console.log(companies);
+
+
+
+// Functions
