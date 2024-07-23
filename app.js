@@ -411,7 +411,16 @@
 
 // // splice(): change orignal Array (add, remove, replace)
 // let arr = [1, 2, 3, 4, 5, 6, 7,];
-// arr.splice(2,3,101);
+// arr.splice(3,2,112);
 // console.log(arr);
-// arr.splice(2, 0, 102);
+// arr.splice(2,3,104);
 // console.log(arr);
+
+// Practice 3 for Lecture 5
+// let companies = ['Bloomberg', 'Microsoft', 'Uber', 'Google', 'IBM', 'Netfelx'];
+// companies.shift();
+// console.log(companies)
+// companies.splice(1,1,'Ola');
+// console.log(companies);
+// companies.push('Amazon');
+// console.log(companies);
