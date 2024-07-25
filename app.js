@@ -474,12 +474,19 @@
 // }
 
 // Practice arrow function
-let countVow = (str) => {
-    let count = 0;
-    for (let char of str) {
-        if (char === 'a'|| char === 'e'|| char === 'i'|| char === 'o'|| char === 'u') {
-            count++;
-        }
-    }
-    return count;
-}
+// let countVow = (str) => {
+//     let count = 0;
+//     for (let char of str) {
+//         if (char === 'a'|| char === 'e'|| char === 'i'|| char === 'o'|| char === 'u') {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// Map Array Method
+// let num = [65, 50, 75, 92];
+// let newArray = num.map((val) => {
+//     return val * val;
+// });
+// console.log(newArray);
