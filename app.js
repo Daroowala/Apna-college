@@ -497,3 +497,17 @@
 // return val % 2 === 0;
 // });
 // console.log(evenArray);
+
+// Reduce Array Method
+// let array = [1,2,3,4,5,6,7,8,9];
+// let outPut = array.reduce((prev , curret) => {
+//     return prev + curret;
+// });
+// console.log(outPut);
+
+// Reduce Methord sai largest aur smallest array nikalna ka tarika
+// let array = [1,2,3,4,5,6,7,8,9];
+// let outPut = array.reduce((prev , curret) => {
+//     return prev > curret ? prev : curret;
+// });
+// console.log(outPut);
