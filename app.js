@@ -511,3 +511,10 @@
 //     return prev > curret ? prev : curret;
 // });
 // console.log(outPut);
+
+// Practice 5 for Lecture 5
+// let marks = [92, 67, 32, 49, 99, 96, 86];
+// let topers = marks.filter((val)=>{
+//     return val > 90;
+// });
+// console.log(topers);
