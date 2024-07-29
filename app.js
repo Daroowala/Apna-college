@@ -544,3 +544,9 @@
 // let button2 = document.querySelectorAll('button'); // select all elements
 // console.log(button2);
 
+// Practice 1 for Lecture 6
+// let h2 = document.querySelector('h2');
+// h2.innerText = h2.innerText + " from Apna College Student";
+// console.log(h2);
+
+// Practice 2 for Lecture 6
