@@ -518,3 +518,28 @@
 //     return val > 90;
 // });
 // console.log(topers);
+
+
+
+// DOM (Document Object Model)
+// DOM manipulation
+// Selection with ID
+// let heading = document.getElementById('heading');
+// console.dir(heading)
+
+// // Selection with Class
+// let button = document.getElementsByClassName('btn');
+// console.log(button);
+// console.dir(button);
+
+// // Selection with Tag Name
+// let par = document.getElementsByTagName('p');
+// console.log(par);
+// console.dir(par);
+
+// Query Selector
+// let button = document.querySelector('button'); // only select 1 element
+// console.log(button);
+
+// let button2 = document.querySelectorAll('button'); // select all elements
+// console.log(button2);
