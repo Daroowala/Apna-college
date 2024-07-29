@@ -545,8 +545,18 @@
 // console.log(button2);
 
 // Practice 1 for Lecture 6
-// let h2 = document.querySelector('h2');
-// h2.innerText = h2.innerText + " from Apna College Student";
-// console.log(h2);
+let h2 = document.querySelector('h2');
+h2.innerText = h2.innerText + " from Apna College Student";
+console.log(h2);
 
 // Practice 2 for Lecture 6
+// let divs = document.querySelectorAll('.box');
+// divs[0].innerText = divs[0].innerText +' New Unique Value 1';
+// divs[1].innerText = divs[1].innerText +' New Unique Value 2';
+// divs[2].innerText = divs[2].innerText +' New Unique Value 3';
+// // Ab is code ko hum short kar kai lekh sakta haan loop ka zarya
+// let idx = 1;
+// for (div of divs) {
+//     div.innerText = `New Unique Value ${idx}`;
+//     idx++;
+// }
