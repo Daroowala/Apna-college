@@ -576,5 +576,13 @@
 // console.log(para.getAttribute('class'))
 
 // DOM Attributes (setAttribute)
-let change = document.querySelector("p");
-console.log(change.setAttribute("class", "newClass"))
+// let change = document.querySelector("p");
+// console.log(change.setAttribute("class", "newClass"))
+
+// DOM Attributes Style
+// let div = document.querySelector("div");
+// div.style.backgroundColor = "green";
+// div.style.backgroundColor = "pink";
+// div.style.fontSize = "18px";
+// div.style.fontWeight = "800"
+// div.innerText = "Hello!!"
