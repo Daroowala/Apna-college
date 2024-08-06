@@ -617,13 +617,13 @@
 // newParg.remove();
 
 // Practice 1 for Lecture 7
-let newBtn = document.createElement("button");
-newBtn.innerText = "Click Me!";
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "Click Me!";
 
-document.querySelector("body").prepend(newBtn);
-newBtn.style.background = "red";
-newBtn.style.color = "white";
+// document.querySelector("body").prepend(newBtn);
+// newBtn.style.background = "red";
+// newBtn.style.color = "white";
 
 // Practice 2 for Lecture 7
-let para = document.querySelector("p");
-para.classList.add("newClass")
+// let para = document.querySelector("p");
+// para.classList.add("newClass")
