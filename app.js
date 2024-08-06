@@ -589,29 +589,41 @@
 
 // DOM Attributes (Insert elements)
 // node.append(el) == add at the end of node(inside)
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "Click Me!!";
+
+// let div = document.querySelector("div");
+// div.append(newBtn);
+
+// // node.prepend(el) == add at the start of node(inside)
+// let newHeading = document.createElement("h2");
+// newHeading.innerText = "I am new!!";
+
+// document.querySelector("body").prepend(newHeading);
+
+// // node.before(el) == add before the node(outside)
+// let parg = document.createElement("p");
+// parg.innerText = "This is paragrape";
+
+// document.querySelector("body").before(parg);
+
+// // node.after(el) == add after the node(outside)
+// let newParg = document.createElement("p");
+// newParg.innerText = "This is new paragrape";
+
+// document.querySelector("body").after(newParg);
+
+// // DOM Attributes (Delete elements);
+// newParg.remove();
+
+// Practice 1 for Lecture 7
 let newBtn = document.createElement("button");
-newBtn.innerText = "Click Me!!";
+newBtn.innerText = "Click Me!";
 
-let div = document.querySelector("div");
-div.append(newBtn);
+document.querySelector("body").prepend(newBtn);
+newBtn.style.background = "red";
+newBtn.style.color = "white";
 
-// node.prepend(el) == add at the start of node(inside)
-let newHeading = document.createElement("h2");
-newHeading.innerText = "I am new!!";
-
-document.querySelector("body").prepend(newHeading);
-
-// node.before(el) == add before the node(outside)
-let parg = document.createElement("p");
-parg.innerText = "This is paragrape";
-
-document.querySelector("body").before(parg);
-
-// node.after(el) == add after the node(outside)
-let newParg = document.createElement("p");
-newParg.innerText = "This is new paragrape";
-
-document.querySelector("body").after(newParg);
-
-// DOM Attributes (Delete elements);
-newParg.remove();
+// Practice 2 for Lecture 7
+let para = document.querySelector("p");
+para.classList.add("newClass")
