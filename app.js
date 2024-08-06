@@ -586,3 +586,18 @@
 // div.style.fontSize = "18px";
 // div.style.fontWeight = "800"
 // div.innerText = "Hello!!"
+
+// DOM Attributes (Insert elements)
+// node.append(el) == add at the end of node
+let newBtn = document.createElement("button");
+newBtn.innerText = "Click Me!!";
+
+let div = document.querySelector("div");
+div.append(newBtn);
+
+// node.prepend(el) == add at the start of node
+let newHeading = document.createElement("h2");
+newHeading.innerText = "I am new!!";
+
+document.querySelector("body").prepend(newHeading);
+
