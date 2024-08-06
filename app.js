@@ -612,3 +612,6 @@ let newParg = document.createElement("p");
 newParg.innerText = "This is new paragrape";
 
 document.querySelector("body").after(newParg);
+
+// DOM Attributes (Delete elements);
+newParg.remove();
