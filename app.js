@@ -627,3 +627,7 @@
 // Practice 2 for Lecture 7
 // let para = document.querySelector("p");
 // para.classList.add("newClass")
+
+
+
+// Events
