@@ -1,4 +1,4 @@
-#box{
+/* #box{
     height: 150px;
     width: 130px;
     border: 1px solid black;
@@ -13,4 +13,12 @@
 
 .newClass{
     background-color: yellow;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
 }
