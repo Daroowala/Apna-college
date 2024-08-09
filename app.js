@@ -631,3 +631,29 @@
 
 
 // Events
+// let btn1 = document.querySelector("#btn1");
+// btn1.onclick = () => {
+//     console.log("Button 1 clicked!!");
+//     let a = 25;
+//     a++;
+//     console.log(a);
+// } 
+
+// let box = document.querySelector("#div1");
+// box.onmouseover = () => { 
+// console.log("You are in div")
+// }
+
+// Event listeners
+// addEventListener
+// btn1.addEventListener('click', ()=> {
+//     console.log("Button 1 clicked!!");
+// });
+
+// btn1.addEventListener('click', (evt)=> {
+//     console.log("Button 1 clicked - handler2");
+//     console.log(evt);
+//     console.log(evt.type);
+//     console.log(evt.target);
+//     console.log(evt.clientX, evt.clientY);
+// });
