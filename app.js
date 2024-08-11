@@ -657,3 +657,41 @@
 //     console.log(evt.target);
 //     console.log(evt.clientX, evt.clientY);
 // });
+
+// removeEventListener
+// btn1 .addEventListener('click', () => {
+//     console.log('Button 1 handler 1');
+// });
+// btn1 .addEventListener('click', () => {
+//     console.log('Button 1 handler 2');
+// });
+// let handler3 = () => {
+//     console.log("clicked on - handler3");
+// };
+// btn1 .addEventListener('click', () => {
+//     // console.log('Button 1 handler 3');
+// });
+// btn1 .addEventListener('click', () => {
+//     console.log('Button 1 handler 4');
+// });
+
+// btn1.removeEventListener('click', handler3);  
+
+// Practice 1 for Lecture 8
+let modeBtn = document.querySelector("#mode");
+let body = document.querySelector('body');
+let currMode = "light";
+
+modeBtn.addEventListener ('click', () => {
+
+if (currMode === 'light'){
+    currMode = 'dark';
+    body.classList.add('dark');
+    body.classList.remove('light');
+} else {
+    currMode = 'light';
+    body.classList.add('light');
+}
+
+console.log(currMode)
+});
