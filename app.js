@@ -678,20 +678,57 @@
 // btn1.removeEventListener('click', handler3);  
 
 // Practice 1 for Lecture 8
-let modeBtn = document.querySelector("#mode");
-let body = document.querySelector('body');
-let currMode = "light";
+// let modeBtn = document.querySelector("#mode");
+// let body = document.querySelector('body');
+// let currMode = "light";
 
-modeBtn.addEventListener ('click', () => {
+// modeBtn.addEventListener ('click', () => {
 
-if (currMode === 'light'){
-    currMode = 'dark';
-    body.classList.add('dark');
-    body.classList.remove('light');
-} else {
-    currMode = 'light';
-    body.classList.add('light');
-}
+// if (currMode === 'light'){
+//     currMode = 'dark';
+//     body.classList.add('dark');
+//     body.classList.remove('light');
+// } else {
+//     currMode = 'light';
+//     body.classList.add('light');
+// }
 
-console.log(currMode)
-});
+// console.log(currMode)
+// });
+
+
+// Prototype
+// const employe = {
+//     calcTax () {
+//         console.log("tax rate is 10%");
+//         },
+//         department () {
+//             console.log("department is sales");
+//          }
+// };
+
+// const Rehan = {
+//     salary: 'Rs 180000',
+// };
+
+// const Ali = {
+//     salary: 'Rs 120000',
+// };
+
+// const Babar = {
+//     salary: 'Rs 150000',
+// };
+
+// const Faraz = {
+//     salary: 'Rs 200000',
+//     calcTax () {
+//         console.log("tax rate is 20%");
+//     },
+//     department () {
+//         console.log("department is Manager");
+//      }
+// };
+// Rehan.__proto__ = employe;
+// Ali.__proto__ = employe;
+// Babar.__proto__ = employe;
+// Faraz.__proto__ = employe;
