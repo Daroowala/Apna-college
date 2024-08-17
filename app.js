@@ -749,3 +749,23 @@
 //  fortuner.setBrand("Fortuner");
 //  let lexus = new ToyotaCars();
 //  lexus.setBrand("Lexus");
+
+// Constructor
+//   class ToyotaCars {
+//     constructor(brand) {
+//         console.log("creating new object")
+//         this.brandName = brand;
+//     }
+//     start() {
+//         console.log("Toyota car is started");
+//     }
+//     stop() {
+//         console.log("Toyota car is stopped");
+//     }
+    
+// };
+//  let fortuner = new ToyotaCars('fortuner');
+// //  fortuner.setBrand("Fortuner");
+//  let lexus = new ToyotaCars('lexus');
+// //  lexus.setBrand("Lexus");
+
