@@ -732,3 +732,20 @@
 // Ali.__proto__ = employe;
 // Babar.__proto__ = employe;
 // Faraz.__proto__ = employe;
+
+// Classes
+// class ToyotaCars {
+//     start() {
+//         console.log("Toyota car is started");
+//     }
+//     stop() {
+//         console.log("Toyota car is stopped");
+//     }
+//     setBrand(brand) {
+//         this.brandName = brand;
+//     }
+// };
+//  let fortuner = new ToyotaCars();
+//  fortuner.setBrand("Fortuner");
+//  let lexus = new ToyotaCars();
+//  lexus.setBrand("Lexus");
