@@ -835,3 +835,20 @@
 // let teacher = new User ("Dean", "Dean@gmail.com");
 
 // let admin = new Admin ("admin", "admin@gmail.com")
+
+
+// Try catch yaa errors ko handal karta hai
+// let a = 5;
+// let b = 10;
+// console.log("a =", a );
+// console.log("b =", b );
+// console.log("a+b =", a+b);
+// try {
+// console.log("c+b =", c+b);
+// } catch (err) {
+//     console.log("Error:", err.message);
+// }
+// console.log("a+b =", a+b);
+// console.log("a+b =", a+b);
+// console.log("a+b =", a+b);
+// console.log("a+b =", a+b);
