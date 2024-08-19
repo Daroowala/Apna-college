@@ -807,3 +807,31 @@
 
 // let Rehan = new Engenier();
 // let Ali = new Doctor();
+
+// Practice 1 for Lecture 11
+
+// let Data = "secret information";
+// class User {
+// constructor(name,email) {
+// this.name = name;
+// this.email = email;
+// }
+// viewData() {
+//     console.log("data =", Data);
+// }
+// }
+// class Admin extends User {
+//     constructor(name, email) {
+//         super(name, email);
+//     }
+//     editData () {
+//         Data = "new information";
+//     }
+// }
+
+// let student1 = new User ("Rehan", "abc@gmail.com");
+// let student2 = new User ("Ali", "bbc@mail.com")
+
+// let teacher = new User ("Dean", "Dean@gmail.com");
+
+// let admin = new Admin ("admin", "admin@gmail.com")
