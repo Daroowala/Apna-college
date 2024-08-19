@@ -776,6 +776,5 @@ class Parent {
     }
 }
 
-class Child extends Parent{
-    
-}
+class Child extends Parent{}
+let obj = new Child();
