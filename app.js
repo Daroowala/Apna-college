@@ -770,11 +770,40 @@
 // //  lexus.setBrand("Lexus");
 
 // Inheritence
-class Parent {
-    hello() {
-        console.log("hello");
-    }
-}
+// class Parent {
+//     hello() {
+//         console.log("hello");
+//     }
+// }
 
-class Child extends Parent{}
-let obj = new Child();
+// class Child extends Parent{}
+// let obj = new Child();
+
+// class Person {
+//     constructor() {
+//         this.species = "homo species"
+//     }
+//     eat () {
+//         console.log("eating")
+//     }
+//     sleep () {
+//         console.log("sleeping")
+//     }
+//     work () {
+//         console.log("working")
+//     } // agar same methord parent aur child mai hoga to child methord kam kara ga
+// }
+// class Engenier extends Person {
+//     work () {
+//         console.log("to solve the problems")
+//     }
+// }
+
+// class Doctor extends Person {
+//     work () {
+//         console.log("to treat patients")
+//     }
+// }
+
+// let Rehan = new Engenier();
+// let Ali = new Doctor();
