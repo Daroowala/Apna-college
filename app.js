@@ -769,3 +769,13 @@
 //  let lexus = new ToyotaCars('lexus');
 // //  lexus.setBrand("Lexus");
 
+// Inheritence
+class Parent {
+    hello() {
+        console.log("hello");
+    }
+}
+
+class Child extends Parent{
+    
+}
