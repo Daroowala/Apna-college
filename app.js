@@ -874,3 +874,26 @@
 // }
 // calculator (5, 10, sum);
 // calculator (10, 30, sum);
+
+// Callback hell
+function getData (dataId, getNextData) {
+setTimeout(() =>{
+    console.log("data", dataId);
+    if (getNextData) {
+        getNextData();
+    }
+}, 2000)
+}
+
+getData(1, () => { // This is called callback hell
+getData(2, () => {
+    getData(3, () => {
+        getData(4, () => {
+            getData(5, () =>{
+                console.log("All data received");
+            })
+        })
+    })
+})
+})
+// is callback hell ki problem ko solve karna ka lia javaScript mai ek function hai jis ko (Promise) kaha jata hai
