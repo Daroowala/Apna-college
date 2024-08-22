@@ -863,3 +863,14 @@
 // }, 4000);
 // console.log("four");
 // console.log("five");
+
+
+// (Callback) jub kisi bhi function mai dosra function pass karta haan to usa callback function khata haan
+// function sum (a, b) {
+// console.log(a + b);
+// }
+// function calculator (a, b, sum) {
+// sum (a, b)
+// }
+// calculator (5, 10, sum);
+// calculator (10, 30, sum);
