@@ -852,3 +852,14 @@
 // console.log("a+b =", a+b);
 // console.log("a+b =", a+b);
 // console.log("a+b =", a+b);
+
+
+// console.log ("one"); // synchronous
+// console.log("two");
+// console.log("three");
+
+// setTimeout (() => { // Asynchronous
+//     console.log("hello");
+// }, 4000);
+// console.log("four");
+// console.log("five");
